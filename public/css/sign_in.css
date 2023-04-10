@@ -1,0 +1,93 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    /* min-height: 100vh; */
+    background-image: url('../sign_in.jpg');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* z-index: 5; */
+}
+.heading{
+    color: antiquewhite;
+}
+.form{
+    padding: 15px;
+    margin: 7vh;
+    color: aquamarine;
+    width: 40vw;
+    background: #060c21;
+    border: 2px solid white;
+    box-shadow: 16px 14px 20px #0000008c;
+    border-radius: 10px;
+}
+
+.container{
+    margin-top: 10vh;
+    display: flex;
+    
+}
+
+
+
+/* THIS IS POP UP FOR SIGN UP */
+/* Popup container */
+
+
+
+.registration_Form {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  /* The actual popup (appears on top) */
+.registration_Form form {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  
+  /* Popup arrow */
+  .registration_Form form::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .registration_Form .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }

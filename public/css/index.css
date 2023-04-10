@@ -1,0 +1,106 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+body{
+    background-image: url('../bg.jpg');
+}
+#heading{
+    height: 10vh;
+    
+}
+#heading h1{
+    color: yellow;
+    font-size: 3rem;
+}
+#form{
+    background: rgba(0,0,0,0.5);
+    margin:14vh;
+}
+form{
+    
+    color: rgb(0, 0, 0);
+}
+#nav{
+    /* margin-top: 2vh; */
+    background-color: rgb(167, 8, 8);
+    /* background-color: rgb(28, 233, 165); */
+}
+#nav span a{
+    text-decoration: none;
+    color: white;
+}
+.icon{
+    /* border: solid ; */
+    /* width: max-content; */
+margin-left: 10px;
+}
+
+.goals_div{
+    width: 1100px;
+    
+}
+.form-check{
+    padding: 44px;
+}
+/* .goals_div button:hover{
+    animation-name: delete;
+    animation-duration: 2s;
+
+} */
+@keyframes delete {
+  
+    0%{
+        left: 80px;
+    }
+    50%{
+        left: 0;
+    }
+    
+    100%{
+        right: 80px;
+    }
+   
+
+   
+}
+.form-check{
+    height: 40px;
+    border: solid 3px red;
+    
+    
+}
+.form-check-label h5{
+    font-family: 'Tilt Neon';
+    font-weight: bolder;
+    font-size: 25px;
+}
+.underline{
+    text-decoration: underline;
+}
+#add_goals{
+   
+    margin: 30px;
+    
+    position: relative;
+    left: 500px;
+}
+#add_goals a{
+    padding: 15px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.goals_div button{
+    position: relative;
+    left: 50px;
+    bottom: 10px;
+}
+
+#form h1{
+    font-family: 'Tilt Prism', cursive;
+    font-size: 65px;
+    color: white;
+}

@@ -1,0 +1,55 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    /* min-height: 100vh; */
+    background-image: url('../sign_up.jpg');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* z-index: 5; */
+}
+.heading{
+    color: antiquewhite;
+}
+.form{
+    padding: 15px;
+    
+    margin: 7vh;
+    margin-top: 1vh;
+    color: aquamarine;
+    width: 40vw;
+    background: #060c21;
+    border: 2px solid white;
+    box-shadow: 16px 14px 20px #0000008c;
+    border-radius: 10px;
+}
+
+.container{
+    margin-top: 10vh;
+    display: flex;
+    
+}
+#set_bg{
+    /* padding: 15px; */
+    
+    /* margin: 7vh; */
+    /* margin-top: 1vh; */
+    /* color: aquamarine; */
+    /* width: 40vw; */
+    background: #060c21;
+    border: 2px solid white;
+    box-shadow: 16px 14px 20px #0000008c;
+    border-radius: 10px;
+}
+
+footer h5{
+    height: 15vh;
+}
+/* THIS IS POP UP FOR SIGN UP */
+/* Popup container */
+

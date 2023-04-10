@@ -1,0 +1,12 @@
+<div class="goals_div row mb-3">
+          <div class="col-sm-10 offset-sm-2">
+            <div class="form-check row rounded-pill bg-warning">
+              <input id='{{goal}}' class="form-check-input col-2" type="checkbox" onclick="sure('{{goal}}')" >
+            <label class="form-check-label col-9 fs-bolder" for="gridCheck5">
+                <h5>{{goal}}</h5>
+              </label>
+              <button type="button" class="icon btn btn-danger col-1"  onclick="delete_goal('{{goal}}')"><i class="fa fa-sharp fa-regular fa-trash"></i></button>
+              {{!-- <button class="icon text-danger border border-danger col-4""></button> --}}
+            </div>
+          </div>
+        </div>

@@ -1,0 +1,23 @@
+body{
+    background-image: url('../bg_home.jpg');
+    
+}
+#heading{
+    height: 70px;
+    
+}
+#heading h1{
+    /* color: yellow; */
+    font-size: 4rem;
+    font-family: 'Babylonica', cursive;
+    z-index: 2;
+    /* font-family: 'Rubik', sans-serif; */
+}
+#tools{
+    margin: 7vh;
+    display: flex;
+  justify-content: center;
+}
+.card{
+    margin: 40px;
+}

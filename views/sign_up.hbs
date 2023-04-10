@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign-in</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="/static/css/sign_up.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="heading">
+                <h1>Welcome to</h1>
+                <h1 id="set_bg" class="text-danger bg-dark text-center">Self-Improvement-Zone</h1>
+                <h4>* You had taken a very good set step towards your success and
+                    <br>* you showed up and differentiate yourself from others</h4>
+            </div>
+            <div class="form">
+                <form method="post" action="/sign-up">
+                    <div class="mb-3" name="user">
+                        <label for="exampleInputEmail1" class="form-label">UserName</label>
+                        <input type="user" placeholder='Enter Username' class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="username">
+                        <div id="emailHelp" class="form-text">We'll never share your details with anyone else.</div>
+                    </div>
+                    <div class="mb-3" name="pass">
+                        <label for="exampleInputPassword1" class="form-label">Create Password</label>
+                        <input type="password" placeholder='Enter Password' class="form-control" id="exampleInputPassword1"required  name="password">
+                    </div>
+                    <div class="mb-3" name="pass">
+                        <label for="exampleInputPassword1" class="form-label">Email Id</label>
+                        <input type="email" placeholder='Enter Email' class="form-control" required name="EmailId">
+                    </div>
+                    <div class="mb-3" name="pass">
+                        <label for="exampleInputPassword1" class="form-label">Age</label>
+                        <input type="number" placeholder='Enter Age' class="form-control" name="Age" required >
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" value="Male" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Male
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" value="Female" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Female
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" value="Custom" checked id="flexRadioDefault3">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Custom
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    
+                </form>
+            </div>
+
+        </div>
+
+
+        <footer>
+            <h5 class="bg-light text-center">© copyright by Stak-Industries</h5>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script></script>
+    </body>
+</html>

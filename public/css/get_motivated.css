@@ -1,0 +1,16 @@
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .container {
+    height: 200px;
+    position: relative;
+    border: 8px solid rgb(243, 239, 19);
+    border-radius: 5%;
+    background: rgba(0, 0, 0, 0.7);
+    margin-top: 30vh;
+  }
